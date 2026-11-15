@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800">
+<rect width="600" height="800" fill="#9a5c36"/>
+<rect x="34" y="34" width="532" height="732" rx="18" fill="none" stroke="#f5e4d2" stroke-width="3" opacity=".8"/>
+<circle cx="480" cy="145" r="72" fill="#f5e4d2" opacity=".18"/>
+<path d="M0 620 Q160 540 300 635 T600 610 V800 H0Z" fill="#f5e4d2" opacity=".13"/>
+<text x="64" y="105" fill="#f5e4d2" font-family="Georgia,serif" font-size="22" letter-spacing="5">READSPHERE</text>
+<text x="64" y="340" fill="white" font-family="Georgia,serif" font-size="64" font-weight="bold"><tspan x="64" dy="0">POETRY</tspan><tspan x="64" dy="76">IN</tspan><tspan x="64" dy="76">MOTION</tspan></text>
+<text x="64" y="700" fill="#f5e4d2" font-family="Arial,sans-serif" font-size="22" letter-spacing="4">POETRY COLLECTION</text>
+</svg>

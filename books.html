@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ReadSphere Digital Library — discover books, explore collections and become a member.">
+<title>Books | ReadSphere Digital Library</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#172b3a;--navy:#183b56;--teal:#2f7c78;--cream:#f6f5f0;--muted:#64748b}
+body{font-family:'DM Sans',sans-serif;color:var(--ink);background:#fff}
+h1,h2,h3,.brand{font-family:'Playfair Display',serif}
+.navbar{background:#fff;box-shadow:0 2px 16px #183b5610}
+.navbar-brand{font-weight:700;color:var(--navy)!important;font-size:1.45rem}
+.nav-link{font-weight:600;color:#385166!important}
+.nav-link.active,.nav-link:hover{color:var(--teal)!important}
+.hero{background:linear-gradient(120deg,#eaf2f1,#f6f5f0);padding:5.5rem 0}
+.hero h1{font-size:clamp(2.5rem,5vw,4.4rem);line-height:1.08;color:var(--navy)}
+.eyebrow{color:var(--teal);font-weight:700;letter-spacing:.13em;text-transform:uppercase;font-size:.78rem}
+.btn-primary{background:var(--teal);border-color:var(--teal);padding:.75rem 1.25rem;font-weight:700}
+.btn-primary:hover{background:#245f5c;border-color:#245f5c}
+.btn-outline-primary{color:var(--teal);border-color:var(--teal)}
+.btn-outline-primary:hover{background:var(--teal);border-color:var(--teal)}
+.section-pad{padding:4.5rem 0}
+.section-soft{background:var(--cream)}
+.service-card,.book-card,.benefit-card{border:1px solid #e8edf0;border-radius:1rem;height:100%;box-shadow:0 8px 28px #183b5608}
+.service-icon{width:3rem;height:3rem;border-radius:.9rem;background:#e4f0ee;display:grid;place-items:center;color:var(--teal);font-size:1.35rem}
+.book-card{overflow:hidden;transition:transform .2s,box-shadow .2s}
+.book-card:hover{transform:translateY(-4px);box-shadow:0 14px 30px #183b5617}
+.book-cover{width:100%;height:260px;object-fit:cover;background:#e8eef0}
+.category-pill{background:#e8f2f0;color:#276c68;font-size:.75rem;font-weight:700}
+footer{background:#142f43;color:#dbe6ed}
+footer a{color:#dbe6ed;text-decoration:none}
+.form-control:focus{border-color:var(--teal);box-shadow:0 0 0 .2rem #2f7c7820}
+.invalid-feedback{display:block}
+@media(max-width:767.98px){.hero{padding:4rem 0}.section-pad{padding:3.25rem 0}}
+</style></head><body>
+<nav class="navbar navbar-expand-lg sticky-top">
+ <div class="container">
+  <a class="navbar-brand" href="index.html">Read<span style="color:#2f7c78">Sphere</span></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="mainNav">
+   <ul class="navbar-nav ms-auto gap-lg-3">
+    <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+    <li class="nav-item"><a class="nav-link active" href="books.html">Books</a></li>
+    <li class="nav-item"><a class="nav-link " href="membership.html">Membership</a></li>
+   </ul>
+  </div>
+ </div>
+</nav>
+<main><section class="hero py-5"><div class="container"><p class="eyebrow">Explore the collection</p><h1 class="mb-3">Find a book to<br>fall into.</h1><p class="lead text-secondary mb-0">Browse a selection of stories, knowledge and inspiration for every curious reader.</p></div></section>
+<section class="section-pad"><div class="container"><div class="d-flex flex-wrap gap-2 mb-4"><span class="badge category-pill rounded-pill px-3 py-2">All collections</span><span class="badge bg-light text-secondary rounded-pill px-3 py-2">Fiction</span><span class="badge bg-light text-secondary rounded-pill px-3 py-2">Science</span><span class="badge bg-light text-secondary rounded-pill px-3 py-2">History</span><span class="badge bg-light text-secondary rounded-pill px-3 py-2">Poetry</span></div><div class="row g-4"><div class="col-12 col-md-6 col-lg-4"><article class="book-card"><img class="book-cover" src="images/hiddenstory.webp" alt="Illustrated cover for The Silent Library"><div class="p-4"><span class="badge category-pill rounded-pill mb-2">Fiction</span><h2 class="h4">The Silent Library</h2><p class="text-secondary">A thoughtful novel about the stories hidden in quiet places.</p><a class="btn btn-outline-primary btn-sm" href="membership.html">Read More</a></div></article></div><div class="col-12 col-md-6 col-lg-4"><article class="book-card"><img class="book-cover" src="images/stars.avif" alt="Illustrated cover for A Guide to the Stars"><div class="p-4"><span class="badge category-pill rounded-pill mb-2">Science</span><h2 class="h4">A Guide to the Stars</h2><p class="text-secondary">A friendly introduction to the wonders of our universe.</p><a class="btn btn-outline-primary btn-sm" href="membership.html">Read More</a></div></article></div><div class="col-12 col-md-6 col-lg-4"><article class="book-card"><img class="book-cover" src="images/rubic.jpg" alt="Illustrated cover for Minds That Grow"><div class="p-4"><span class="badge category-pill rounded-pill mb-2">Self-help</span><h2 class="h4">Minds That Grow</h2><p class="text-secondary">Practical ideas for building habits and learning every day.</p><a class="btn btn-outline-primary btn-sm" href="membership.html">Read More</a></div></article></div><div class="col-12 col-md-6 col-lg-4"><article class="book-card"><img class="book-cover" src="images/worldhistory.png" alt="Illustrated cover for A History of the World"><div class="p-4"><span class="badge category-pill rounded-pill mb-2">History</span><h2 class="h4">A History of the World</h2><p class="text-secondary">A concise journey through people, places and defining moments.</p><a class="btn btn-outline-primary btn-sm" href="membership.html">Read More</a></div></article></div><div class="col-12 col-md-6 col-lg-4"><article class="book-card"><img class="book-cover" src="images/poetry.jpg" alt="Illustrated cover for Poetry in Motion"><div class="p-4"><span class="badge category-pill rounded-pill mb-2">Poetry</span><h2 class="h4">Poetry in Motion</h2><p class="text-secondary">A collection of poems celebrating everyday life and imagination.</p><a class="btn btn-outline-primary btn-sm" href="membership.html">Read More</a></div></article></div><div class="col-12 col-md-6 col-lg-4"><article class="book-card"><img class="book-cover" src="images/future.webp" alt="Illustrated cover for Design Your Future"><div class="p-4"><span class="badge category-pill rounded-pill mb-2">Technology</span><h2 class="h4">Design Your Future</h2><p class="text-secondary">Explore the ideas and technologies shaping tomorrow.</p><a class="btn btn-outline-primary btn-sm" href="membership.html">Read More</a></div></article></div></div></div></section></main>
+<footer class="py-4 mt-5"><div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+ <div><strong class="brand fs-5">ReadSphere</strong><div class="small">A world of knowledge, one page at a time.</div></div>
+ <div class="small text-center text-md-end">Email: hello@readsphere.example · Ho Chi Minh City, Viet Nam<br>© 2026 ReadSphere Digital Library</div>
+</div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body></html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800">
+<rect width="600" height="800" fill="#244a73"/>
+<rect x="34" y="34" width="532" height="732" rx="18" fill="none" stroke="#d9e9f5" stroke-width="3" opacity=".8"/>
+<circle cx="480" cy="145" r="72" fill="#d9e9f5" opacity=".18"/>
+<path d="M0 620 Q160 540 300 635 T600 610 V800 H0Z" fill="#d9e9f5" opacity=".13"/>
+<text x="64" y="105" fill="#d9e9f5" font-family="Georgia,serif" font-size="22" letter-spacing="5">READSPHERE</text>
+<text x="64" y="340" fill="white" font-family="Georgia,serif" font-size="64" font-weight="bold"><tspan x="64" dy="0">THE</tspan><tspan x="64" dy="76">SILENT</tspan><tspan x="64" dy="76">LIBRARY</tspan></text>
+<text x="64" y="700" fill="#d9e9f5" font-family="Arial,sans-serif" font-size="22" letter-spacing="4">FICTION COLLECTION</text>
+</svg>
